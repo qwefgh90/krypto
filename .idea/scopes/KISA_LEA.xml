@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="KISA-LEA" pattern="file[krypto]:src/main/java/krypto/algorithm/lea/impl/kr/re/nsr/crypto//*||file[krypto]:src/main/java/krypto/algorithm/lea/impl/kr/re/nsr/crypto/engine//*||file[krypto]:src/main/java/krypto/algorithm/lea/impl/kr/re/nsr/crypto/mac//*||file[krypto]:src/main/java/krypto/algorithm/lea/impl/kr/re/nsr/crypto/mode//*||file[krypto]:src/main/java/krypto/algorithm/lea/impl/kr/re/nsr/crypto/padding//*||file[krypto]:src/main/java/krypto/algorithm/lea/impl/kr/re/nsr/crypto/symm//*||file[krypto]:src/main/java/krypto/algorithm/lea/impl/kr/re/nsr/crypto/util//*" />
+</component>

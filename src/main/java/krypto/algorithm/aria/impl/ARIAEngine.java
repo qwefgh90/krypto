@@ -1,14 +1,24 @@
-//
-//  ARIAEngine.java
-//  
-//  A pure Java implementation of ARIA 
-//  following the official ARIA specification at
-//  http://www.nsri.re.kr/ARIA/
-//
-//  
-//  Created by Aaram Yun on 2005. 11. 30.
-//  Copyright 2005 NSRI. All rights reserved.
-//
+/*
+ * ARIAEngine.java
+ *
+ * A pure Java implementation of ARIA
+ * following the official ARIA specification at
+ * http://www.nsri.re.kr/ARIA/
+ *
+ * Created by Aaram Yun on 2005. 11. 30.
+ * Copyright 2005 NSRI. All rights reserved.
+ *
+ * Description:
+ *
+ * It's a copy of a public domain work from
+ * https://seed.kisa.or.kr/kisa/Board/19/detailView.do
+ *
+ * Information for ARIA
+ *   - http://210.104.33.10/ARIA/index-e.html (English)
+ *   - http://seed.kisa.or.kr/ (Korean)
+ *
+ * Public domain version is distributed above.
+ */
 
 package krypto.algorithm.aria.impl;
 
@@ -16,10 +26,6 @@ import java.io.PrintStream;
 import java.security.InvalidKeyException;
 import java.util.Date;
 
-/**
- * It's been forked from a public source in
- * https://seed.kisa.or.kr/kisa/Board/19/detailView.do
- */
 public class ARIAEngine {
   private static final char[] HEX_DIGITS = {
     '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'

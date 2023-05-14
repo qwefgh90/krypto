@@ -1,0 +1,9 @@
+<component name="CopyrightManager">
+  <settings default="KRYPTO">
+    <module2copyright>
+      <element module="KISA-ARIA" copyright="ARIA_ORIGINAL" />
+      <element module="KISA-SEED" copyright="SEED_ORIGINAL" />
+      <element module="KISA-LEA" copyright="LEA_ORIGINAL" />
+    </module2copyright>
+  </settings>
+</component>

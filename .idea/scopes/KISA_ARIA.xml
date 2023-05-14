@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="KISA-ARIA" pattern="file[krypto]:src/main/java/krypto/algorithm/aria/impl//*" />
+</component>

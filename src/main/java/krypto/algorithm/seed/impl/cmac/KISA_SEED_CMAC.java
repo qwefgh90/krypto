@@ -1,3 +1,19 @@
+/*
+ * According to the official website, The Korea Internet & Security Agency does not charge royalties for intellectual property rights related to the production and sale of products using SEED.
+ *
+ * 공식 홈페이지에 따르면, 한국인터넷진흥원은 SEED 를 이용한 제품 생산 및 판매와 관련된 지적재산권에 대하여 사용료를 요구하지 않습니다.
+ *
+ * Copyright (c) 2023 KISA(Korea Information Security Agency). All rights reserved.
+ *
+ * Description:
+ *
+ * It's a copy of a public domain work from
+ * https://seed.kisa.or.kr/kisa/Board/17/detailView.do
+ *
+ * Information for SEED
+ *   - https://seed.kisa.or.kr/kisa/algorithm/EgovSeedInfo.do
+ */
+
 package krypto.algorithm.seed.impl.cmac;
 
 public class KISA_SEED_CMAC {
