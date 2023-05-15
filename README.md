@@ -1,3 +1,7 @@
+[![mac](https://github.com/qwefgh90/krypto/actions/workflows/mac.yml/badge.svg)](https://github.com/qwefgh90/krypto/actions/workflows/mac.yml)
+[![ubuntu](https://github.com/qwefgh90/krypto/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/qwefgh90/krypto/actions/workflows/ubuntu.yml)
+[![jdk-latest](https://github.com/qwefgh90/krypto/actions/workflows/latest.yml/badge.svg)](https://github.com/qwefgh90/krypto/actions/workflows/latest.yml)
+
 ## Krypto
 
 Krypto is a Java encryption library that 
