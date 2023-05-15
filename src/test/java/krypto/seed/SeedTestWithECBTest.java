@@ -1,17 +1,16 @@
-package krypto.lea;
+package krypto.seed;
 
 import krypto.Algorithm;
-import krypto.LeaAlgorithmFactory;
-import krypto.exception.WrongFixedKeySize;
+import krypto.SeedAlgorithmFactory;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.security.InvalidKeyException;
 
-public class LeaTestWithECB {
+public class SeedTestWithECBTest {
     @Test
-    void plainTextLessThan16() throws InvalidKeyException, WrongFixedKeySize {
-        Algorithm algo = LeaAlgorithmFactory.createWithECB("masterkey", 256);
+    void plainTextLessThan16() throws InvalidKeyException {
+        Algorithm algo = SeedAlgorithmFactory.createWithECB("masterkey");
         String plain = "Hello 안녕";
         byte[] cipherText = algo.encrypt(plain.getBytes());
         byte[] decryptedText = algo.decrypt(cipherText);
@@ -19,8 +18,8 @@ public class LeaTestWithECB {
     }
 
     @Test
-    void shortPlainText() throws InvalidKeyException, WrongFixedKeySize {
-        Algorithm algo = LeaAlgorithmFactory.createWithECB("masterkey", 256);
+    void shortPlainText() throws InvalidKeyException {
+        Algorithm algo = SeedAlgorithmFactory.createWithECB("masterkey");
         String plain = "Hello";
         byte[] cipherText = algo.encrypt(plain.getBytes());
         byte[] decryptedText = algo.decrypt(cipherText);
@@ -28,8 +27,8 @@ public class LeaTestWithECB {
     }
 
     @Test
-    void longPlainText() throws InvalidKeyException, WrongFixedKeySize {
-        Algorithm algo = LeaAlgorithmFactory.createWithECB("masterkey", 256);
+    void longPlainText() throws InvalidKeyException {
+        Algorithm algo = SeedAlgorithmFactory.createWithECB("masterkey");
         String plain = "Hello 안녕 Bonjour Hola こんにちは 你好";
         StringBuilder repeatedText = new StringBuilder();
         for (int i = 0; i < 100; i++) {
