@@ -41,6 +41,9 @@ public abstract class LeaAlgorithm extends Algorithm {
 
     public enum Mode {
         ECB,
-        CBC
+        CBC,
+        CFB,
+        OFB,
+        CTR
     }
 }

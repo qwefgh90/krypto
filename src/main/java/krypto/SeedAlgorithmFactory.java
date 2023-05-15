@@ -16,7 +16,9 @@
 
 package krypto;
 
-import krypto.exception.WrongInitialVectorException;
+import krypto.algorithm.seed.CTRMode;
+import krypto.exception.WrongCounterLengthException;
+import krypto.exception.WrongInitialVectorLengthException;
 import krypto.algorithm.seed.CBCMode;
 import krypto.algorithm.seed.ECBMode;
 
@@ -37,10 +39,16 @@ public class SeedAlgorithmFactory {
      * @param initialVector Initialization vector (IV) parameter with a length of 16 bytes.
      * @return
      */
-    public static Algorithm createWithCBC(String masterKey, byte[] initialVector) throws WrongInitialVectorException, InvalidKeyException {
+    public static Algorithm createWithCBC(String masterKey, byte[] initialVector) throws WrongInitialVectorLengthException, InvalidKeyException {
         checkIV(initialVector);
         checkMasterKey(masterKey);
         return new CBCMode(masterKey, initialVector);
+    }
+
+    public static Algorithm createWithCTR(String masterKey, byte[] counter) throws InvalidKeyException, WrongCounterLengthException {
+        checkCounter(counter);
+        checkMasterKey(masterKey);
+        return new CTRMode(masterKey, counter);
     }
 
     private static void checkMasterKey(String masterKey) throws InvalidKeyException {
@@ -48,8 +56,13 @@ public class SeedAlgorithmFactory {
             throw new InvalidKeyException("masterKey can't not be empty.");
     }
 
-    private static void checkIV(byte[] initialVector) throws WrongInitialVectorException {
+    private static void checkIV(byte[] initialVector) throws WrongInitialVectorLengthException {
         if(initialVector.length != 16)
-            throw new WrongInitialVectorException("A length of initialVector must be 16 bytes.");
+            throw new WrongInitialVectorLengthException("A length of initialVector must be 16 bytes.");
+    }
+
+    private static void checkCounter(byte[] counter) throws WrongCounterLengthException {
+        if(counter.length != 16)
+            throw new WrongCounterLengthException("A length of counter must be 16 bytes.");
     }
 }

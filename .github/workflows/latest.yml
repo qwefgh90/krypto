@@ -1,4 +1,4 @@
-name: jdk-latest
+name: "jdk20"
 
 on:
   push:

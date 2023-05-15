@@ -16,23 +16,23 @@
 
 package krypto.exception;
 
-public class WrongInitialVectorException extends Exception {
-    public WrongInitialVectorException() {
+public class WrongCounterLengthException extends Exception {
+    public WrongCounterLengthException() {
     }
 
-    public WrongInitialVectorException(String message) {
+    public WrongCounterLengthException(String message) {
         super(message);
     }
 
-    public WrongInitialVectorException(String message, Throwable cause) {
+    public WrongCounterLengthException(String message, Throwable cause) {
         super(message, cause);
     }
 
-    public WrongInitialVectorException(Throwable cause) {
+    public WrongCounterLengthException(Throwable cause) {
         super(cause);
     }
 
-    public WrongInitialVectorException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+    public WrongCounterLengthException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }

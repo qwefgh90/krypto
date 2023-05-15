@@ -4,8 +4,7 @@
 
 ## Krypto
 
-Krypto is a Java encryption library that 
-includes Korean encryption algorithms such as ARIA, SEED, which have been released through KISA(Korea Internet & Security Agency).
+Krypto is a Java encryption library designed to provide secure data protection for sensitive information. It includes source codes for advanced Korean encryption algorithms such as ARIA and SEED, which have been publicly released through KISA.
 
 ### Getting started
 
@@ -38,11 +37,11 @@ by unifying them with some good patterns and releasing them on Maven.
 - SEED: SEED is a 128 bits block encryption algorithm.
   - Block size: 128 bits
   - Key size: 128 bits
-  - Mode: CBC, ECB (other modes might be added in the future)
+  - Mode: CBC, ECB, CTR (other modes might be added in the future)
 - LEA: LEA is a 128 bits block encryption algorithm.
   - Block size: 128 bits
   - Key size: 128, 192, 256 bits
-  - Mode: CBC, ECB (other modes might be added in the future)
+  - Mode: CBC, ECB, CFB, OFB, CTR (other modes might be added in the future)
 
 > **Based on public information from KISA**, The Korea Internet & Security Agency (KISA) does not charge royalties for intellectual property related to the production and sale of products that use SEED, LEA. 
 > Public domain source codes are also published from KISA. For more details, please visit [KISA](https://seed.kisa.or.kr/kisa/index.do).
