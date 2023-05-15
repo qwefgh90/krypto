@@ -15,7 +15,7 @@ public class AriaAlgorithmTest {
         String plain = "Hello 안녕";
         byte[] cipherText = algo.encrypt(plain.getBytes());
         byte[] decryptedText = algo.decrypt(cipherText);
-        Assertions.assertEquals(new String(decryptedText).getBytes(), plain);
+        Assertions.assertEquals(new String(decryptedText), plain);
     }
 
     @Test

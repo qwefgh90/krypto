@@ -40,11 +40,12 @@ by unifying them with some good patterns and releasing them on Maven.
   - Key size: 128, 192, 256 bits
   - Mode: CBC, ECB (other modes might be added in the future)
 
-> **Based on public information from KISA**, The Korea Internet & Security Agency (KISA) does not charge royalties for intellectual property related to the production and sale of products that use SEED, LEA. For more details, please contact [KISA](https://seed.kisa.or.kr/kisa/index.do). 
+> **Based on public information from KISA**, The Korea Internet & Security Agency (KISA) does not charge royalties for intellectual property related to the production and sale of products that use SEED, LEA. 
+> Public domain source codes are also published from KISA. For more details, please visit [KISA](https://seed.kisa.or.kr/kisa/index.do).
 
 #### References
 
-- Source code(ARIA, SEED and LEA): [KISA library](https://seed.kisa.or.kr/kisa/reference/EgovSource.do)
-- ARIA: https://seed.kisa.or.kr/kisa/algorithm/EgovSeedInfo.do
+- Public source codes(ARIA, SEED and LEA): [KISA library](https://seed.kisa.or.kr/kisa/reference/EgovSource.do)
+- ARIA: https://seed.kisa.or.kr/kisa/algorithm/EgovAriaInfo.do
 - SEED: https://seed.kisa.or.kr/kisa/algorithm/EgovSeedInfo.do
 - LEA: https://seed.kisa.or.kr/kisa/algorithm/EgovLeaInfo.do
