@@ -1,6 +1,6 @@
 <component name="CopyrightManager">
   <copyright>
-    <option name="notice" value="According to the official website, The Korea Internet &amp;amp; Security Agency does not charge royalties for intellectual property rights related to the production and sale of products using SEED.&#10;&#10;공식 홈페이지에 따르면, 한국인터넷진흥원은 SEED 를 이용한 제품 생산 및 판매와 관련된 지적재산권에 대하여 사용료를 요구하지 않습니다.&#10;&#10;Copyright (c) &amp;#36;today.year KISA(Korea Information Security Agency). All rights reserved.&#10;&#10;Description:&#10;&#10;It's a copy of a public domain work from&#10;https://seed.kisa.or.kr/kisa/Board/17/detailView.do&#10;&#10;Information for SEED&#10;  - https://seed.kisa.or.kr/kisa/algorithm/EgovSeedInfo.do" />
+    <option name="notice" value="According to the KISA website, The Korea Internet &amp;amp; Security Agency does not charge royalties for intellectual property rights related to the production and sale of products using SEED.&#10;&#10;공식 홈페이지에 따르면, 한국인터넷진흥원은 SEED 를 이용한 제품 생산 및 판매와 관련된 지적재산권에 대하여 사용료를 요구하지 않습니다.&#10;&#10;Copyright (c) &amp;#36;today.year KISA(Korea Information Security Agency). All rights reserved.&#10;&#10;Description:&#10;&#10;It's a copy of a file from a zip file downloaded from&#10;https://seed.kisa.or.kr/kisa/Board/17/detailView.do. &#10;The zip file is open for public use.&#10;&#10;Information for SEED&#10;  - https://seed.kisa.or.kr/kisa/algorithm/EgovSeedInfo.do" />
     <option name="myName" value="SEED_ORIGINAL" />
   </copyright>
 </component>

@@ -186,7 +186,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2023 qwefgh90
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -199,3 +199,72 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+
+   Third Party Code Implementation:
+
+   Krypto includes a number of source files with
+   separate copyright notices and license terms. Your use of the source
+   code for the these files is subject to the terms and
+   conditions of the following licenses.
+
+   For the aria.impl package:
+
+   /*
+    * ARIAEngine.java
+    *
+    * A pure Java implementation of ARIA
+    * following the official ARIA specification at
+    * http://www.nsri.re.kr/ARIA/
+    *
+    * Created by Aaram Yun on 2005. 11. 30.
+    * Copyright 2005 NSRI. All rights reserved.
+    *
+    * Description:
+    *
+    * It's a copy of a file from a zip file downloaded from
+    * https://seed.kisa.or.kr/kisa/Board/19/detailView.do.
+    * The zip file is open for public use.
+    *
+    * Information for ARIA
+    *   - http://210.104.33.10/ARIA/index-e.html (English)
+    *   - http://seed.kisa.or.kr/ (Korean)
+    *
+    * Public domain version is distributed above.
+    */
+
+   For the lea.impl package:
+
+   /*
+    * According to the KISA website, LEA can be used for product production and sales without any royalty fees related to intellectual property rights.
+    *
+    * 공식 홈페이지에 따르면, LEA는 지적재산권에 대한 사용료 없이 제품 생산 및 판매와 관련하여 적용할 수 있습니다.
+    *
+    * Description:
+    *
+    * It's a copy of a file from a zip file downloaded from
+    * https://seed.kisa.or.kr/kisa/Board/20/detailView.do.
+    * The zip file is open for public use.
+    *
+    * Information for LEA
+    *   - https://seed.kisa.or.kr/kisa/algorithm/EgovLeaInfo.do
+    */
+
+    for the seed.imple package
+
+    /*
+     * According to the KISA website, The Korea Internet & Security Agency does not charge royalties for intellectual property rights related to the production and sale of products using SEED.
+     *
+     * 공식 홈페이지에 따르면, 한국인터넷진흥원은 SEED 를 이용한 제품 생산 및 판매와 관련된 지적재산권에 대하여 사용료를 요구하지 않습니다.
+     *
+     * Copyright (c) 2023 KISA(Korea Information Security Agency). All rights reserved.
+     *
+     * Description:
+     *
+     * It's a copy of a file from a zip file downloaded from
+     * https://seed.kisa.or.kr/kisa/Board/17/detailView.do.
+     * The zip file is open for public use.
+     *
+     * Information for SEED
+     *   - https://seed.kisa.or.kr/kisa/algorithm/EgovSeedInfo.do
+     */

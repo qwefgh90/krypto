@@ -7,6 +7,33 @@
     <groupId>io.github.qwefgh90</groupId>
     <artifactId>krypto</artifactId>
     <version>0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>krypto</name>
+    <description>Krypto is a Java encryption library</description>
+    <url>https://github.com/qwefgh90/krypto</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://github.com/qwefgh90/krypto/blob/main/README.md</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>qwefgh90</name>
+            <email>qwefgh90@naver.com</email>
+            <organization>Personal</organization>
+            <organizationUrl>https://github.com/qwefgh90</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/qwefgh90/krypto.git</connection>
+        <developerConnection>scm:git:ssh://github.com:qwefgh90/krypto.git</developerConnection>
+        <url>https://github.com/qwefgh90/krypto</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

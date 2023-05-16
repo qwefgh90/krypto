@@ -10,8 +10,9 @@
  *
  * Description:
  *
- * It's a copy of a public domain work from
- * https://seed.kisa.or.kr/kisa/Board/19/detailView.do
+ * It's a copy of a file from a zip file downloaded from
+ * https://seed.kisa.or.kr/kisa/Board/19/detailView.do.
+ * The zip file is open for public use.
  *
  * Information for ARIA
  *   - http://210.104.33.10/ARIA/index-e.html (English)

@@ -1,6 +1,6 @@
 <component name="CopyrightManager">
   <copyright>
-    <option name="notice" value="ARIAEngine.java&#10;&#10;A pure Java implementation of ARIA&#10;following the official ARIA specification at&#10;http://www.nsri.re.kr/ARIA/&#10;&#10;Created by Aaram Yun on 2005. 11. 30.&#10;Copyright 2005 NSRI. All rights reserved.&#10;&#10;Description:&#10;&#10;It's a copy of a public domain work from&#10;https://seed.kisa.or.kr/kisa/Board/19/detailView.do&#10;&#10;Information for ARIA&#10;  - http://210.104.33.10/ARIA/index-e.html (English)&#10;  - http://seed.kisa.or.kr/ (Korean)&#10;&#10;Public domain version is distributed above." />
+    <option name="notice" value="ARIAEngine.java&#10;&#10;A pure Java implementation of ARIA&#10;following the official ARIA specification at&#10;http://www.nsri.re.kr/ARIA/&#10;&#10;Created by Aaram Yun on 2005. 11. 30.&#10;Copyright 2005 NSRI. All rights reserved.&#10;&#10;Description:&#10;&#10;It's a copy of a file from a zip file downloaded from&#10;https://seed.kisa.or.kr/kisa/Board/19/detailView.do. &#10;The zip file is open for public use.&#10;&#10;Information for ARIA&#10;  - http://210.104.33.10/ARIA/index-e.html (English)&#10;  - http://seed.kisa.or.kr/ (Korean)&#10;&#10;Public domain version is distributed above." />
     <option name="myName" value="ARIA_ORIGINAL" />
   </copyright>
 </component>
